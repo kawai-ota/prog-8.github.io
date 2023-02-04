@@ -1,0 +1,375 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+body{
+font: 14px/1.9 'Noto Sans JP', Arial, Verdana, 游ゴシック, YuGothic,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo,sans-serif;
+    font-weight: 300;
+    -webkit-text-size-adjust: 100%;
+    overflow-x: hidden;
+    color: #000;
+    background:#fff;
+}
+
+img{
+    vertical-align: bottom;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    text-align: center;
+    height:60px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+
+.header-cover{
+    text-align: center;
+    height:60px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index:1000;
+}
+
+header img{
+    height:25px;
+    width:100px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+header .fa-bars{
+    float: right;
+    padding-top: 30px;
+    padding-bottom: 38px;
+    padding-right: 20px;
+}
+
+.header-nav{
+    background-color: white;
+    text-align: left;
+    transform: translateY(-120%);
+    transition: 0.7s;
+    z-index: 10;
+}
+
+.header-menu li{
+    padding: 15px 0px;
+    border-bottom: 1px solid #CCC;
+    font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+}
+
+
+.header-menu .fa-solid{
+    padding-left: 8px;
+    padding-right: 12px;
+}
+
+.header-menu li a:hover{
+    text-decoration: underline;
+}
+
+.header-icon{
+    border-bottom: 1px solid #CCC;
+    padding: 8px 0px 1px 10px;
+    font-size: 1.5em;
+}
+
+.drawer-btn:checked ~ .header-nav{
+    transform: translateY(10%);
+}
+
+.drawer-btn{
+    position: absolute;
+    right: 18px;
+    bottom: 20px;
+    transform: scale(1.5);
+    opacity: 0;
+    z-index: 90000;
+}
+
+.header-icon a{
+     padding-right: 24px;
+}
+
+.sidebar{
+    width: 20%;
+    position: fixed;
+    right: 0;
+    height:100%;
+}
+
+.side-contents li{
+    list-style: none;
+}
+
+.side-logo{
+    height:22.42px;
+    width:88px;
+    padding-top: 25px;
+    padding-bottom: 45px;
+}
+
+.side-contents{
+    padding-left: 16%;
+}
+
+.side-menu li{
+    padding-bottom: 25px;
+}
+
+.side-menu li a{
+    color: #000;
+    font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+    font-size: 14px;
+}
+
+.side-menu li a:hover{
+    text-decoration: underline;
+}
+
+.side-icons{
+    font-size: 1.5em;
+}
+
+.side-icons .fa-brands {
+    padding: 45px 10px 0 0;
+}
+
+.side-icons .fa-brands:hover{
+    opacity: 0.6;
+}
+
+.contents{
+    width:80%;
+}
+
+.top-image{
+    width:100%;
+}
+
+.message-wrapper{
+    width:60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading{
+    font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+    font-size: 22px;
+    padding: 80px 0 20px 0;
+    margin-bottom: 50px;
+    border-bottom: 3px solid black;
+    display: inline-block;
+}
+
+.photo-wrapper img{
+    width:33.33333333333333333333333%;
+}
+
+span .big-photo{
+    width:100%;
+}
+
+.brand-wrapper{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.brand-contents{
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+
+.contents-item{ 
+    width: 18%;
+    padding: 0 25px;
+    display: inline-block;
+    text-align: left;
+}
+
+
+.contents-item img{
+    width:100%;
+    padding-bottom: 16px;
+}
+
+.project-wrapper{
+    width: 80%;
+    margin:0 auto;
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+.project-contents{
+    border-bottom: 1px solid black;
+}
+
+.project-item{
+    display: flex;
+}
+
+.project-item img{
+    width:375px;
+    height:225px;
+    margin-right: 18px;
+    padding-bottom: 80px;
+}
+
+.project-item p{
+    text-align: left;
+}
+
+.company-wrapper{
+    width:80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 280px;
+}
+
+.company-contents{
+    display: flex;
+}
+
+.address {
+    text-align: left;
+    margin-right: 7%;
+    margin-top: 40px;
+}
+
+.ggmap iframe{
+    margin-top: 40px;
+}
+
+.ggmap{
+    width: 60%;
+    position: relative;
+    padding-bottom: 30%;
+}
+
+iframe{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    font-size: 12px;
+    width: 80%;
+    text-align: center;
+}
+
+footer p{
+    padding-bottom: 60px;
+}
+
+footer a {
+    color: blue;
+}
